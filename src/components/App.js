@@ -1,7 +1,7 @@
 
-import React from "react";
+import React from 'react';
 import './../styles/App.css';
-import Button from "./Button";
+import Button from './Button';
 
 const App = () => {
 

@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import React from "react";
 const Button=()=>{
     let [count,setCount]=useState(0);
     function increase(){
@@ -7,7 +7,7 @@ const Button=()=>{
     }
     return(
         <div>
-            <p>Button clicked  {count} times</p>
+            <p>Button clicked {count} times</p>
             <button onClick={increase}>Click me</button>
         </div>
     )
